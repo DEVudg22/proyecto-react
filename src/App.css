@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url('./img/fondo.jpg');
+  background-size: contain;
+ 
+}
+
+.contenedor-principal, .formulario-login, .formulario-registro {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(79deg, #acacac, #7c7c7c 48%, #505050);
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .contenedor-principal {
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+    opacity: 0.9;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #7439db;
+}
+
+.boton-enlace {
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+
+footer {
+ text-align: right;
+ font-style: italic;
+}
