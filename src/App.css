@@ -10,13 +10,23 @@
  
 }
 
-.contenedor-principal, .formulario-login, .formulario-registro {
+.contenedor-principal, .formulario-login, .formulario-registro, .formulario-captura {
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(79deg, #acacac, #7c7c7c 48%, #505050);
   border-radius: 10px;
 }
 
+.formulario-captura {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.formulario-captura label, input, button {
+  padding: 10px;
+
+}
 @media screen and (min-width: 600px) {
   .contenedor-principal {
     padding: 5rem;
